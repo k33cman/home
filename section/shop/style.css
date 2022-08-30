@@ -1,0 +1,397 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	background-color: #f9f9f9;
+}
+
+.pre_header {
+	background-color: #111618;
+	height: 60px;
+	color: white;
+}
+
+
+.pre_header .secondary-menu {
+	list-style: none;
+}
+.pre_header .secondary-menu li {
+	display: inline-block;
+	margin-left: 20px;
+
+}
+
+.pre_header .secondary-menu li a {
+	color: #707374;
+	text-transform: uppercase;
+	text-decoration: none;
+	font-size: 13px;
+	font-style: italic;
+	
+}
+
+.pre_header .secondary-menu li a:before {
+	content: "";
+	display: inline-block;
+	margin-right: 5px;
+	background-image: url("C:/Users/Kecman1/Desktop/Site/images/icon2.png");
+	width: 15px;
+	height: 11px;
+}
+
+
+.main-nav .main-menu {
+	list-style: none;
+	margin-top: 20px;
+}
+
+
+
+.main-nav .main-menu li {
+	display: inline-block;
+	margin-left: 15px;
+
+}
+
+.main-nav .main-menu li a{
+	color: #767676;
+	text-transform: uppercase;
+	text-decoration: none;
+	font-size: 13px;
+}
+.main-nav .main-menu li a:before {
+	content: "";
+	display: inline-block;
+	margin-right: 5px;
+	background-image: url("C:/Users/Kecman1/Desktop/Site/images/icon.png");
+	width: 15px;
+	height: 11px;
+	text-decoration: none;
+}
+
+.main-nav .main-menu2 li a{
+	color: #767676;
+	text-transform: uppercase;
+	text-decoration: none;
+	font-size: 13px;
+
+}
+
+.main-cta-btn {
+	width: 100%;
+	height: 50%;
+	background-color: #4f33f1;
+	border: 1px solid #4f33f1;
+	padding: 5px;
+	color: #fff !important ;
+	text-decoration: none;
+	transition: 0.3s;
+	-webkit-clip-path: polygon(50% 0%, 100% 0, 100% 75%, 91% 100%, 0 100%, 0 0);
+	clip-path: polygon(50% 0%, 100% 0, 100% 75%, 91% 100%, 0 100%, 0 0);
+
+}
+.main-cta-btn:hover {
+	color: #4f33f1 !important;
+	background-color: transparent;
+	text-decoration: none;
+
+}
+
+.main-nav img {
+	margin-top: 10px;
+}
+
+.pricing-section {
+	text-align: center;
+	padding-top: 100px;
+	margin-bottom: 100px;
+}
+
+.pricing-section h3 {
+	text-align: center;
+	color: #4c807b;
+	text-transform: uppercase;
+	font-size: 18px;
+}
+
+.pricing-section h2 {
+	text-align: center;
+	text-transform: uppercase;
+	font-size: 36px;
+	color: #343434;
+	font-weight: bold;
+
+}
+
+.pricing-section p {
+	text-align: center;
+	color: #818181;
+}
+
+.pricing-section .pricing-plan h4 {
+	font-size: 16px;
+}
+
+ 
+
+.pricing-section .pricing-plan {
+	background-color: #1c2021;
+	color: #fff;
+	padding: 25px;
+	-webkit-box-shadow: 5px 5px 10px 0px rgba(0,0,0,0.75);
+	-moz-box-shadow: 5px 5px 10px 0px rgba(0,0,0,0.75);
+	box-shadow: 5px 5px 10px 0px rgba(0,0,0,0.75);
+	text-align: center;
+	color: white;
+	margin: 10px;
+	transition: 0.3s;
+
+}
+
+.pricing-section .pricing-plan:hover {
+	background-color: #3c309d;
+	cursor: pointer;
+	margin: -20px;
+}
+.pricing-section .pricing-plan a {
+	display: inline-block;
+
+}
+
+.pricing-section .pricing-plan ul {
+	list-style: none;
+}
+
+.pricing-section .pricing-plan ul li {
+	padding-top: 10px;
+	padding-bottom: 10px;
+	border-bottom: 1px solid ;
+	position: relative;
+    left: -20px;
+}
+
+.pricing-section .pricing-plan  .price {
+	position: relative;
+	border-top: 3px dotted #fff;
+	border-bottom: 3px dotted #fff;
+	margin-bottom: 20px;
+}
+
+.pricing-section .pricing-plan  .price .main-num {
+	font-size: 60px;
+	font-style: italic;
+}
+.pricing-section .pricing-plan  .price .sec-num {
+	position: relative;
+	top: -30px;
+}
+
+.pricing-section .pricing-plan  .price .month {
+	position: relative;
+	top: -25px;
+}
+
+.profits-section {
+	padding-top: 200px;
+	padding-bottom: 200px;
+	background-image:  url("C:/Users/Kecman1/Desktop/Site/images/about.jpg");
+	background-size: cover;
+	text-align: center;
+	color: #fff;
+
+}
+.profits-section h2 {
+	font-style: 60px;
+	text-transform: uppercase;
+}
+
+.profits-section p {
+	font-size: 20px;
+}
+.profits-section h2 {
+	font-size: 60px;
+	text-transform: uppercase;
+} 
+.profits-section p {
+	font-size: 16px;
+}
+.profits-section a  {
+	border: 2px solid #fff;
+	color: #fff;
+	text-transform: uppercase;
+	padding: 15px;
+	text-decoration: none;
+	display: inline-block;
+	margin-top: 100px;
+}
+
+.btn-order-now {
+	width: 100%;
+	height: 50%;
+	background-color: royalblue;
+	border: 2px solid royalblue;
+	padding: 5px;
+	color: #fff !important ;
+	text-decoration: none;
+	transition: 0.3s;
+	-webkit-clip-path: polygon(50% 0%, 100% 0, 100% 75%, 91% 100%, 0 100%, 0 0);
+	clip-path: polygon(50% 0%, 100% 0, 100% 75%, 91% 100%, 0 100%, 0 0);
+	font-weight: bold;
+
+}
+.btn-order-now:hover {
+
+	color: royalblue, !important;
+	background-color: transparent;
+	text-decoration: none;
+
+}
+
+footer {
+
+	padding-top: 100px;
+	padding-bottom: 100px;
+
+}
+
+footer h4 {
+	border-bottom: 1px dotted grey;
+	color: #343434;
+	text-transform: uppercase;
+
+}
+footer h4:before {
+	content: "";
+	display: inline-block;
+	background-color: #315df7;
+	width: 10px;
+	height: 9px;
+	margin-right: 18px;
+	position: relative;
+	top: -2px;
+
+}
+
+footer ul li a {
+	color: #818181;
+	text-transform: uppercase;
+	text-decoration: none;
+}
+footer ul {
+	list-style: none;
+}
+
+footer ul li a:before {
+	content: "";
+	display: inline-block;
+	margin-right: 5px;
+	background-image: url("C:/Users/Kecman1/Desktop/Site/images/icon.png");
+	width: 15px;
+	height: 11px;
+
+}
+
+
+@media (max-width: 400px) {
+	.pre_header .secondary-menu li {
+		display: inline-block;
+		margin-left: 1px;
+
+}
+}
+
+@media (max-width: 400px) {
+	.pre_header .secondary-menu li a {
+		color: #707374;
+		text-transform: uppercase;
+		text-decoration: none;
+		font-size: 12px;
+	
+}
+}
+
+@media (max-width: 400px) {
+
+	.pre_header .secondary-menu li a:before {
+		content: "";
+		display: inline-block;
+		margin-right: 5px;
+		background-image: url("C:/Users/Kecman1/Desktop/Site/images/icon2.png");
+		width: 15px;
+		height: 11px;	
+	}
+
+}
+
+@media (max-width: 400px) {
+	.hero-section h1 {
+		color: white;
+		text-transform: uppercase;
+		font-size: 50px;
+		margin-bottom: 20px;
+	}
+}
+@media (max-width: 400px) {
+
+	.services-selection .service-item .slicica1 {
+		margin-left: -60px;
+}
+
+@media (max-width: 500px) {
+	.pricing-section .pricing-plan {
+	background-color: #1c2021;
+	color: #fff;
+	padding: 25px;
+	margin: 5px;
+
+}
+}
+
+@media (max-width: 500px) {
+	.main-nav .main-menu {
+	list-style: none;
+    margin-top: 20px;
+    margin-left: -25px;
+
+}
+}
+
+@media (max-width: 1000px) {
+
+	.pricing-section .pricing-plan  .price {
+		position: relative;
+		border-top: 3px dotted #fff;
+		border-bottom: 3px dotted #fff;
+		margin-bottom: 10px;
+	}
+}
+
+@media (max-width: 1000px) {
+	.pricing-section .pricing-plan  .price .main-num {
+		font-size: 45px;
+		font-style: italic;
+	}
+}	
+@media (max-width: 1000px) {
+	.pricing-section .pricing-plan  .price .sec-num {
+		position: relative;
+		top: -40px;
+	}
+}
+@media (max-width: 1000px) {
+	.pricing-section .pricing-plan  .price .month {
+		position: relative;
+		top: -40px;
+	}
+}
+@media (max-width: 1000px) {
+	.pricing-section .pricing-plan ul li {
+		padding-top: 10px;
+		padding-bottom: 20px;
+		border-bottom: 1px solid ;
+		position: relative;
+		left: -20px;
+	}
+}

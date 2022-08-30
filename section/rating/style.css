@@ -1,0 +1,374 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'Popins', sans-serif ;
+
+}
+
+
+.pre_header {
+	background-color: #111618;
+	height: 60px;
+	color: white;
+}
+
+
+.pre_header .secondary-menu {
+	list-style: none;
+}
+.pre_header .secondary-menu li {
+	display: inline-block;
+	margin-left: 20px;
+
+}
+
+.pre_header .secondary-menu li a {
+	color: #707374;
+	text-transform: uppercase;
+	text-decoration: none;
+	font-size: 13px;
+	font-style: italic;
+	
+}
+
+.pre_header .secondary-menu li a:before {
+	content: "";
+	display: inline-block;
+	margin-right: 5px;
+	background-image: url("C:/Users/Kecman1/Desktop/Site/images/icon2.png");
+	width: 15px;
+	height: 11px;
+}
+
+
+.main-nav .main-menu {
+	list-style: none;
+	margin-top: 20px;
+}
+
+
+
+.main-nav .main-menu li {
+	display: inline-block;
+	margin-left: 15px;
+
+}
+
+.main-nav .main-menu li a{
+	color: #767676;
+	text-transform: uppercase;
+	text-decoration: none;
+	font-size: 13px;
+}
+.main-nav .main-menu li a:before {
+	content: "";
+	display: inline-block;
+	margin-right: 5px;
+	background-image: url("C:/Users/Kecman1/Desktop/Site/images//icon.png");
+	width: 15px;
+	height: 11px;
+	text-decoration: none;
+}
+
+.main-nav .main-menu2 li a{
+	color: #767676;
+	text-transform: uppercase;
+	text-decoration: none;
+	font-size: 13px;
+
+}
+
+
+
+.container2 {
+	width: 400px;
+	background: #111;
+	padding: 20px 30px;
+	border: 1px solid #444;
+	border-radius: 5px ;
+	display: flex;
+	text-align: center;
+	background-color: #000;
+	position: relative;
+	left: 614px;
+    top: 26px;
+
+
+}
+
+.container2 .post {
+	display: none;
+}
+
+.container2 .text{
+	font-size: 25px;
+	color: #666;
+	font-weight: 600;
+
+}
+
+.container2 .edit{
+	position: absolute;
+	right: 10px;
+	top: 5px;
+	font-size: 16px;
+	color: #666;
+	font-weight: 500;
+	cursor: pointer;
+
+}
+
+
+.container2 .star-widget input {
+	display: none;
+}
+
+.star-widget label {
+	font-size: 40px;
+	color: #444;
+	padding: 10px;
+	float: right;
+	transition: all 0.2sec ease;
+
+}
+
+input:not(:checked) ~ label:hover,
+input:not(:checked) ~ label:hover ~	label {
+	color: #4f33f1;
+}
+
+input:checked ~ label {
+	color: #4f33f1;
+}
+
+input#rate-5:checked ~ label {
+	color: #4f33f1;
+	text-shadow: 0 0 20px #4f33f1;
+}
+
+#rate-1:checked ~  form header:before {
+	content: "I just hate it "
+}
+#rate-2:checked ~  form header:before {
+	content: "I don't like it"
+}
+#rate-3:checked ~  form header:before {
+	content: "It is awesome"
+}
+#rate-4:checked ~  form header:before {
+	content: "I just like it"
+}
+#rate-5:checked ~  form header:before {
+	content: "I just love it"
+}
+
+.container2 form{
+	display: none;
+}
+
+input:checked ~ form {
+	display: block;
+}
+
+
+form header {
+	width: 100%;
+	font-size: 25px;
+	color: #4f33f1;
+	font-weight: 500;
+	margin: 5px 0 20px 0;
+	text-align: center;
+	transition: all 0.2s ease;
+}
+
+form .textarea {
+	height: 100px;
+	width: 100%;
+	overflow: hidden;
+
+}
+
+form .textarea textarea {
+	height: 100%;
+	width: 100%;
+	outline: none;
+	color: #eee;
+	border: 1px solid #333;
+	padding: 10px;
+	font-size: 17px;
+	background-color: #000;
+	font-family: sans-serif;
+	resize: none;
+
+}
+
+form .btn {
+	height: 45px;
+	width: 100%;
+	margin: 15px 0;
+}
+
+form .btn button {
+	height: 100%;
+	width: 100%;
+	background-color: #4f33f1;
+	border: 1px solid #4f33f1;
+	outline: none;
+	color: #fff !important ;
+	font-size: 17px;
+	font-weight: 500;
+	text-transform: uppercase;
+	cursor: pointer;
+	transition: 0.3s;
+	-webkit-clip-path: polygon(50% 0%, 100% 0, 100% 79%, 9% 100%, 0 100%, 0 0);
+	clip-path: polygon(50% 0%, 100% 0, 100% 79%, 90% 100%, 0 100%, 0 0);
+}
+
+form .btn button:hover {
+	color: #4f33f1 !important;
+	background-color: transparent;
+	text-decoration: none;
+
+}
+
+
+footer {
+
+	padding-top: 100px;
+	padding-bottom: 100px;
+
+}
+
+footer h4 {
+	border-bottom: 1px dotted grey;
+	color: #343434;
+	text-transform: uppercase;
+
+}
+footer h4:before {
+	content: "";
+	display: inline-block;
+	background-color: #315df7;
+	width: 10px;
+	height: 9px;
+	margin-right: 18px;
+	position: relative;
+	top: -2px;
+
+}
+
+footer ul li a {
+	color: #818181;
+	text-transform: uppercase;
+	text-decoration: none;
+}
+footer ul {
+	list-style: none;
+}
+
+footer ul li a:before {
+	content: "";
+	display: inline-block;
+	margin-right: 5px;
+	background-image: url("C:/Users/Kecman1/Desktop/Site/images/icon.png");
+	width: 15px;
+	height: 11px;
+
+}
+
+@media (max-width: 1410px) {
+
+	.hero-section p {
+		color: #4f33f1;
+		font-size: 18px;
+		font-weight: bold;
+		position: relative;
+		left: 10px;
+		background-size: cover;
+}
+}
+
+@media (max-width: 1410px) {
+
+.main-cta-btn {
+    width: 100%;
+    height: 50%;
+    background-color: #ccc3c4;
+    border: 1px solid #ccc3c4;
+    padding: 5px;
+    color: #fff !important;
+    text-decoration: none;
+    transition: 0.3s;
+    position: relative;
+    left: 20px;
+    bottom: -644px;
+
+
+}
+}
+
+@media (max-width: 400px) {
+	.pre_header .secondary-menu li {
+		display: inline-block;
+		margin-left: 1px;
+
+}
+}
+
+@media (max-width: 400px) {
+	.pre_header .secondary-menu li a {
+		color: #707374;
+		text-transform: uppercase;
+		text-decoration: none;
+		font-size: 12px;
+	
+}
+}
+
+@media (max-width: 400px) {
+
+	.pre_header .secondary-menu li a:before {
+		content: "";
+		display: inline-block;
+		margin-right: 5px;
+		background-image: url("C:/Users/Kecman1/Desktop/Site/images/icon2.png");
+		width: 15px;
+		height: 11px;	
+	}
+
+}
+
+@media (max-width: 400px) {
+	.hero-section h1 {
+		color: white;
+		text-transform: uppercase;
+		font-size: 50px;
+		margin-bottom: 20px;
+	}
+}
+@media (max-width: 400px) {
+
+	.services-selection .service-item .slicica1 {
+		margin-left: -60px;
+}
+
+@media (max-width: 500px) {
+	.pricing-section .pricing-plan {
+	background-color: #1c2021;
+	color: #fff;
+	padding: 25px;
+	margin: 5px;
+}
+}
+
+@media (max-width: 500px) {
+	.main-nav .main-menu {
+	list-style: none;
+    margin-top: 20px;
+    margin-left: -25px;
+    margin-bottom: 20px;
+
+	}
+}
+

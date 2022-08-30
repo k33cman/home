@@ -1,0 +1,260 @@
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	font-family: sans-serif;
+	background-image: url('C:/Users/Kecman1/Desktop/Site/images/about.jpg');
+	color: #fff;
+	background-size: cover;
+
+
+}
+.pre_header {
+	background-color: #111618;
+	height: 60px;
+	color: white;
+}
+
+
+.pre_header .secondary-menu {
+	list-style: none;
+}
+.pre_header .secondary-menu li {
+	display: inline-block;
+	margin-left: 20px;
+
+}
+
+.pre_header .secondary-menu li a {
+	color: #707374;
+	text-transform: uppercase;
+	text-decoration: none;
+	font-size: 13px;
+	font-size: italic;
+}
+
+.pre_header .secondary-menu li a:before {
+	content: "";
+	display: inline-block;
+	margin-right: 5px;
+	background-image: url("C:/Users/Kecman1/Desktop/Site/images/icon2.png");
+	width: 15px;
+	height: 11px;	
+}
+
+
+.slicica {
+	margin-top: 50px;
+	padding-left: 100px;
+	text-align: center;
+
+}
+
+
+.main-wrapper {
+	max-width: 650px;
+	margin: auto;
+	background-color: rgba(255, 255, 255, 0.3);
+	padding: 50px;
+}
+
+form div {
+	padding: 15px 0;
+
+}
+
+form div label {
+	display: block;
+	font-weight: bold;
+	font-size: 16px;
+}
+
+
+form div input {
+	height: 50px;
+	width: 100%;
+	font-size: 18px;
+	padding: 0 10px;
+}
+
+form div button {
+	width: 50%;
+	cursor: pointer;
+	padding: 6px 100px ;
+	font-size: 16px;
+	background-color: #4f33f1;
+	border: 1px solid #4f33f1;
+	color: #fff !important ;
+	text-decoration: none;
+	transition: 0.3s;
+
+}
+
+
+form ul {
+	list-style: none;
+
+}
+
+form ul li {
+	color: red;
+}
+form div button:hover {
+	color: #4f33f1 !important;
+	background-color: transparent;
+	text-decoration: none;	
+}
+
+.no-acc-register {
+	text-align: center;
+	margin-top: 50px;
+}
+
+.no-acc-register button {
+	font-size: 16px;
+	background-color: #4f33f1;
+	border: 1px solid #4f33f1;
+	padding: 6px;
+	color: #fff !important ;
+	text-decoration: none;
+	transition: 0.3s;
+    -webkit-clip-path: polygon(50% 0%, 100% 0, 100% 79%, 9% 100%, 0 100%, 0 0);
+    clip-path: polygon(50% 0%, 100% 0, 100% 79%, 90% 100%, 0 100%, 0 0);
+}
+
+.no-acc-register button:hover {
+	color: #4f33f1 !important;
+	background-color: transparent;
+	text-decoration: none;
+
+}
+
+
+.no-acc-register p {
+	font-size: 22px;
+	margin-bottom: 15px;
+}
+
+.custom-modal {
+	display: none;
+	background-color: black;
+	box-shadow: rgba(255, 255, 255, 0.8) 0 0 1000px 1000px ;
+	max-width: 650px;
+	margin: auto;
+	padding: 50px;
+	position: absolute;
+	top: 10%;
+	left: 0;
+	right: 0;
+	width: 100%;
+}
+
+.custom-modal button#closeModal {
+	height: 20px;
+	width: 20px;
+	color: white;
+	background-color: transparent;
+	border: 0;
+	font-size: 25px;
+	font-weight: bold;
+	position: absolute;
+	right: 30px;
+	top: 30px;
+
+
+
+}
+@media (max-width: 350px) {
+	
+	body{
+		font-family: sans-serif;
+		background-image: url('C:/Users/Kecman1/Desktop/Site/images/about.jpg');
+		color: #fff;
+		background-size: cover;
+
+	}
+}
+@media (max-width: 350px) {
+
+	form div input {
+		height: 40px;
+		width: 90%;
+		font-size: 15px;
+		padding: 0 5px;
+
+}
+}
+
+@media (max-width: 350px) {
+
+	form div button {
+		text-align: center;
+		width: 50%;
+		cursor: pointer;
+		padding: 5px 80px ;
+		font-size: 14px;
+		background-color: #4f33f1;
+		border: 1px solid #4f33f1;
+		color: #fff !important ;
+		text-decoration: none;
+		transition: 0.3s;
+
+
+}
+}
+
+@media (max-width: 350px) {
+	.slicica {
+		margin-top: 30px;
+		padding-left: 20px;
+		text-align: center;
+	}
+
+}
+
+@media (max-width: 350px) {
+	.pre_header .secondary-menu li a:before {
+		content: "";
+		display: inline-block;
+		margin-right: 3px;
+		background-image: url("C:/Users/Kecman1/Desktop/Site/images/icon2.png");
+		width: 10px;
+		height: 10px;	
+}
+}
+
+@media (max-width: 350px) {
+	.pre_header .secondary-menu li a {
+		color: #707374;
+		text-transform: uppercase;
+		text-decoration: none;
+		font-size: 12px;
+	
+}
+}
+@media (max-width: 350px) {
+	.pre_header .secondary-menu li {
+		display: inline-block;
+		margin-left: 2px;
+
+}
+}
+@media (max-width: 820px) {
+	.main-wrapper {
+		max-width: 790px;
+		margin: auto;
+		background-color: rgba(255, 255, 255, 0.3);
+		padding: 40px;
+}
+}
+@media (max-width: 820px) {
+	.slicica {
+		margin-top: 20px;
+		padding-left: 20px;
+		text-align: center;
+}
+}

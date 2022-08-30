@@ -1,0 +1,357 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	background-color: #f9f9f9;
+}
+
+.pre_header {
+	background-color: #111618;
+	height: 60px;
+	color: white;
+}
+
+
+.pre_header .secondary-menu {
+	list-style: none;
+}
+.pre_header .secondary-menu li {
+	display: inline-block;
+	margin-left: 20px;
+}
+
+.pre_header .secondary-menu li a {
+	color: #707374;
+	text-transform: uppercase;
+	text-decoration: none;
+	font-size: 13px;
+}
+
+.pre_header .secondary-menu li a:before {
+	content: "";
+	display: inline-block;
+	margin-right: 5px;
+	background-image: url("C:/Users/Kecman1/Desktop/Site/images/icon2.png");
+	width: 15px;
+	height: 11px;	
+}
+
+
+.main-nav .main-menu {
+	list-style: none;
+	margin-top: 20px;
+}
+
+
+
+.main-nav .main-menu li {
+	display: inline-block;
+	margin-left: 15px;
+
+}
+
+.main-nav .main-menu li a{
+	color: #767676;
+	text-transform: uppercase;
+	text-decoration: none;
+	font-size: 13px;
+}
+.main-nav .main-menu li a:before {
+	content: "";
+	display: inline-block;
+	margin-right: 5px;
+	background-image: url("C:/Users/Kecman1/Desktop/Site/images/icon.png");
+	width: 15px;
+	height: 11px;
+	text-decoration: none;
+}
+
+.main-nav .main-menu2 li a{
+	color: #767676;
+	text-transform: uppercase;
+	text-decoration: none;
+	font-size: 13px;
+
+}
+
+.main-cta-btn {
+
+	background-color: #4f33f1;
+	border: 1px solid #4f33f1;
+	padding: 10px;
+	color: #fff !important ;
+	text-decoration: none;
+	transition: 0.3s;
+	-webkit-clip-path: polygon(50% 0%, 100% 0, 100% 79%, 9% 100%, 0 100%, 0 0);
+	clip-path: polygon(50% 0%, 100% 0, 100% 79%, 90% 100%, 0 100%, 0 0);
+
+}
+.main-cta-btn:hover {
+	color: #4f33f1 !important;
+	background-color: transparent;
+	text-decoration: none;
+
+}
+
+.main-nav img {
+	margin-top: 10px;
+}
+
+
+.hero-section {
+	background-image: url("C:/Users/Kecman1/Desktop/Site/images/hero.jpg");
+	padding-top: 120px;
+	padding-bottom: 120px;
+	background-size: cover;
+
+}
+
+.hero-section h1 {
+	color: white;
+	text-transform: uppercase;
+	font-size: 65px;
+	margin-bottom: 20px;
+
+}
+.hero-section p {
+	color: white;
+	font-size: 18px;
+	font-weight: bold;
+	margin-bottom: 20px;
+
+}
+.hero-section a {
+	background-color: #4f33f1;
+	border: 1px solid #4f33f1;
+	padding: 10px;
+	color: #fff;
+	text-decoration: none;
+	transition: 0.3s;
+	display: inline-block;
+}
+
+.services-selection  {
+	padding-top: 105px;
+	padding-bottom: 100px;
+}
+
+
+
+.services-selection h3 {
+	text-align: center;
+	color: #4c007b;
+	text-transform: uppercase;
+	font-size: 18px;
+}
+.services-selection h2 {
+	text-align: center;
+	text-transform: uppercase;
+	font-size: 36px;
+	color: #343434 ;
+	font-weight: bold;
+}
+.services-selection p {
+	text-align: center;
+	color: #818181 ;
+}
+
+.services-selection .service-item .slicica1 {
+		margin-left: -30px;
+}
+.services-selection .service-item{
+	background-color: #1b1f20;
+	-webkit-box-shadow: 5px 5px 10px 0px rgba(0,0,0,0.75);
+	-moz-box-shadow: 5px 5px 10px 0px rgba(0,0,0,0.75);
+	box-shadow: 5px 5px 10px 0px rgba(0,0,0,0.75);
+	text-align: center;
+	color: white;
+	padding-bottom: 30px;
+	margin: 10px;
+	transition: 0.3s;
+
+}
+
+.services-selection .service-item:hover {
+	background-color: #4c007b;
+	cursor: pointer;
+	margin-top: -20px;
+	-webkit-box-shadow: 5px 5px 15px 0px rgba(0,0,0,0.75);
+	-moz-box-shadow: 5px 5px 15px 0px rgba(0,0,0,0.75);
+	box-shadow: 5px 5px 10px 0px rgba(0,0,0,0.75);
+
+}
+.services-selection .service-item h4 {
+	text-transform: uppercase;
+}
+
+.services-selection .service-item p {
+	color: #b7b8bb;
+}
+
+.services-selection .service-item a {
+	text-decoration: none;
+	color: whitesmoke;
+	text-align: center;
+	display: inline-block;
+	border: 2px solid #fff;
+	padding: 5px;
+
+}
+
+.contact-selection {
+	padding-top: 100px ;
+	padding-bottom: 100px;
+	background-image: url("C:/Users/Kecman1/Desktop/Site/images/about.jpg");
+	color: white;
+	background-size: cover;
+}
+
+.contact-selection .contact-container {
+	margin-top: 50px;
+
+}
+
+.contact-selection h2, .contact-selection p {
+	text-align: center;
+}
+
+
+.contact-selection .contact-details {
+	text-align: left;
+}
+
+.contact-selection .contact-details p {
+	text-align: left;
+}
+.contact-selection .contact-details p a {
+	color: white;
+}
+.contact-selection .contact-details h4 {
+	font-size: 15px;
+	text-transform: uppercase;
+	font-weight: bold;
+	border-bottom: 1px dotted #7c7586;
+	padding-bottom: 10px;
+}
+.contact-selection .contact-details h3{
+	margin-bottom: 30px;
+}
+
+.contact-selection .contact-details h4:before {
+	content: "";
+	display: inline-block;
+	background-color: #315df7;
+	width: 10px;
+	height: 10px;
+	margin-right: 18px;
+	position: relative;
+	top: -2px;
+
+}
+
+
+.contact-selection form {
+	background-color: rgba(0, 0, 0, 0.5);
+	border: 1px solid rgba(255, 255, 255, 0.2);
+	padding: 50px; 
+}
+
+.contact-selection form button, .contact-selection form textarea, .contact-selection form input{
+	width: 100%;
+	border: 0;
+	outline: none;
+	margin-bottom: 15px;
+	height: 40px;	
+}
+
+.contact-selection form textarea {
+	height: 80px;
+}
+
+.contact-selection form button	{
+	background-color: #1a7dfa;
+	color: white;
+	text-transform: uppercase;
+	font-weight: bold;
+	position: relative;
+	bottom: 0;
+	width: 260px
+
+}
+
+
+.contact-selection form label {
+	text-transform: uppercase;
+	font-weight: bold;
+	color: rgba(white, 0.7);
+}
+
+
+
+@media (max-width: 400px) {
+	.pre_header .secondary-menu li {
+		display: inline-block;
+		margin-left: 1px;
+
+}
+}
+
+@media (max-width: 400px) {
+	.pre_header .secondary-menu li a {
+		color: #707374;
+		text-transform: uppercase;
+		text-decoration: none;
+		font-size: 12px;
+	
+}
+}
+
+@media (max-width: 400px) {
+
+	.pre_header .secondary-menu li a:before {
+		content: "";
+		display: inline-block;
+		margin-right: 5px;
+		background-image: url("C:/Users/Kecman1/Desktop/Site/images/icon2.png");
+		width: 15px;
+		height: 11px;	
+	}
+
+}
+
+@media (max-width: 400px) {
+	.hero-section h1 {
+		color: white;
+		text-transform: uppercase;
+		font-size: 50px;
+		margin-bottom: 20px;
+	}
+}
+
+@media (max-width: 997px) {
+	.services-selection .service-item  {
+		width: 110%;
+	
+	}
+
+@media (max-width: 997px) {
+.services-selection .service-item img {
+	position: relative;
+    left: -30px;
+
+}
+}
+
+
+@media (max-width: 400px) {
+	.contact-selection form button{
+		width: 100%;
+		border: 0;
+		outline: none;
+		margin-bottom: 13px;
+		height: 40px;
+
+	}
+}
